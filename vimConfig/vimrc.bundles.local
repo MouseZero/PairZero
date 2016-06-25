@@ -1,0 +1,5 @@
+Bundle 'leafgarland/typescript-vim'
+Bundle 'HerringtonDarkholme/yats.vim'
+Bundle 'Quramy/tsuquyomi'
+Bundle 'clausreinke/typescript-tools.vim'
+Plugin 'christoomey/vim-tmux-navigator'
