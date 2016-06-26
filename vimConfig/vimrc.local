@@ -3,17 +3,6 @@
 :command Ct edit ~/.pairConfig/cheatSheets/cheatTmux
 let g:airline_theme='powerlineish'
 
-let g:typescript_compiler_binary = 'tsc'
-let g:typescript_compiler_options = ''
-if !exists("g:ycm_semantic_triggers")
-    let g:ycm_semantic_triggers = {}
-endif
-let g:ycm_semantic_triggers['typescript'] = ['.']
-
-syntax on
-set smartindent
-set autoindent
-
 "set mouse+=a
 
 if &term =~ '^screen'
