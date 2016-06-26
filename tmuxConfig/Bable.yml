@@ -29,7 +29,7 @@ root: ~/
 
 windows:
   - 0:
-    -
+      - tmux select-window -t :=5
   - todo:
     - vim ~/todo
     - clear
