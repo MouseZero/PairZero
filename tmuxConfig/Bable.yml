@@ -29,60 +29,48 @@ root: ~/
 
 windows:
   - 0:
-    - /bin/bash
-    - clear
+    -
   - todo:
     - vim ~/todo
     - clear
   - 2:
-    - /bin/bash
-    - clear
+    -
   - HTTPFiles:
-    - /bin/bash
     - cd /var/www/html
     - clear
   - package:
       layout: 57c4,271x57,0,0{135x57,0,0,4,135x57,136,0,10}
       panes:
         - pane1:
-          - /bin/bash
           - cd $PROJECT_FOLDER
           - clear
         - pane2:
-          - /bin/bash
           - cd $PROJECT_FOLDER
           - clear
   - editor:
       layout: 3000,271x57,0,0[271x48,0,0,10,271x8,0,49,5]
       panes:
         - vim:
-          - /bin/bash
           - cd $PROJECT_FOLDER
           - vim
         - command:
-          - /bin/bash
           - cd $PROJECT_FOLDER
           - clear
-  - TscWatcher:
-    - /bin/bash
+  - Watcher:
     - cd $PROJECT_FOLDER
     - clear
   - logs:
-    - /bin/bash
-    - clear
+    -
   - git:
       layout: 57c4,271x57,0,0{135x57,0,0,4,135x57,136,0,10}
       panes:
         - pane1:
-          - /bin/bash
           - cd $PROJECT_FOLDER
           - clear
         - pane2:
-          - /bin/bash
           - cd $PROJECT_FOLDER
           - clear
           - git log --follow $PROJECT_FOLDER
   - 9:
-    - /bin/bash
-    - clear
+    -
 
